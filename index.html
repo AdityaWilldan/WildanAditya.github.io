@@ -13,10 +13,21 @@
 </head>
 <body>
     <!-- Header start -->
-    <header class="sticky-top">
+   <header class="sticky-top">
      <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
-    <a href="https://codepen.io/Wildan-Aditya" class="text-teal-500 font-semibold uppercase">Wildan Aditya</a>
+    <ul class="flex flex-wrap -mb-px text-sm font-semibold text-base" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+        <li class="mr-2" role="presentation">
+           <a href="#home"button class="inline-block p-4 rounded-t-lg  border-b-2 border-transparent hover:text-teal-600 hover:border-teal-500 dark:hover:text-teal-300" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Beranda</button></a>
+        </li>
+        <li class="mr-2" role="presentation">
+            <a href="#about"button class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-teal-600 hover:border-teal-300 dark:hover:text-teal-300" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">About</button></a>
+        </li>
+        <li role="presentation">
+            <a href="#contact"button class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-teal-600 hover:border-teal-300 dark:hover:text-teal-300" id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">Contacts</button></a>
+        </li>
+    </ul>
+    <a href="https://codepen.io/Wildan-Aditya" class="text-teal-500 font-semibold uppercase"></a>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Search</button>
